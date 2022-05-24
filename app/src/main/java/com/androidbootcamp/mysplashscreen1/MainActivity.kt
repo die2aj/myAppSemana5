@@ -20,11 +20,22 @@ class MainActivity : AppCompatActivity() {
         binding.registrarButton.setOnClickListener{
             callRegistroActivity()
         }
+
+        binding.loginButton.setOnClickListener{
+            callBuscarActivity()
+        }
     }
 
     fun callRegistroActivity(){
         val intent = Intent(this,RegistroActivity::class.java).apply {
             putExtra(EXTRA_MESSAGE,"Ir a la Actividad Registro")
+        }
+        startActivity(intent)
+    }
+
+    fun callBuscarActivity(){
+        val intent = Intent(this,BuscarActivity::class.java).apply {
+            putExtra(EXTRA_MESSAGE,"Ir a la Actividad Buscar")
         }
         startActivity(intent)
     }
