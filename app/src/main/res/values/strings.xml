@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My App Semana 5</string>
+    <string name="nameButtonRegistro">Aceptar</string>
+    <string name="title_search">Buscar</string>
+    <string name="title_play">Play</string>
+    <string name="title_profile">Juan</string>
+</resources>
