@@ -19,6 +19,7 @@ class RegistroActivity : AppCompatActivity() {
         binding.buttonBack.setOnClickListener{
             callMainActivity()
         }
+
     }
 
     fun callMainActivity(){

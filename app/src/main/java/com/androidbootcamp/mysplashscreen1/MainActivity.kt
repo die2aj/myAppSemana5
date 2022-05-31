@@ -24,6 +24,9 @@ class MainActivity : AppCompatActivity() {
         binding.loginButton.setOnClickListener{
             callBuscarActivity()
         }
+        binding.invitadoLabel.setOnClickListener{
+            callBuscarActivity()
+        }
     }
 
     fun callRegistroActivity(){
